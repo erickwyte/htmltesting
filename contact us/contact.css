@@ -1,0 +1,185 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+a{
+  color: green;
+  cursor: pointer;
+  text-decoration: none;
+}
+body{
+  width: 100%;
+  background: #ccc;
+}
+
+
+
+
+
+
+header{
+  display: flex;
+  z-index: 10;
+  align-items: center;
+  background: #fff;
+  width: 100%;
+  padding: 5px 0 0 0;
+  border-bottom: 2px solid green;
+  position: fixed;
+  justify-content: space-between;
+  }
+  .nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logo img{
+    width: 30px;
+    margin-left: 5px;
+    margin-right: auto;
+    padding: 2.4px 0;
+  }
+  .middle-nav{
+    margin-right: 70px;
+  }
+  .middle-nav ul{
+    display: flex;
+    align-items: center;
+  
+  }
+  .middle-nav ul img{
+    display: none;
+    width: 20px;
+  }
+  .middle-nav img{
+    display: none;
+    width: 20px;
+  }
+  ul li{
+    list-style: none;
+    padding: 8px 10px ;
+  }
+  
+  li a{
+    padding: 10px 0;
+  }
+  
+  .middle-nav ul li:hover {
+      border-bottom: 4px solid red;
+      
+  }
+  
+  .middle-nav ul li a{
+    color: #000;
+  }
+  .right-nav  .singup{
+    padding:8px ;
+    border: 1px solid green;
+    border-radius: 20px;
+    margin-right: 5px;
+  }
+  .right-nav  .singin{
+    padding:8px ;
+    border: 1px solid green;
+    border-radius: 20px;
+    margin-right: 2px;
+  }
+  
+  .menu-bar{
+    display: none;
+  }
+  
+
+
+
+
+.comment{
+  padding-top: 60px;
+  margin: 0 10px;
+}
+
+
+
+
+
+.contact-img{
+  width: 50%;
+  height: 100vh;
+  margin-left: 5px;
+}
+.contact-img img{
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.contact-us h4{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact-us  .contact-submit input{
+  display: flex;
+  padding: 10px;
+  margin-left: 30%;
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+  background-color: green;
+  color: aliceblue;
+  cursor: pointer;
+  border: 1px solid red;
+}
+.contact-us{
+  background-color: aliceblue;
+  margin-right: 5%;
+  padding: 40px 20px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.contact-us ul li{
+margin: 10px 20px;
+list-style: none;
+
+
+}
+
+ul li input{
+padding: 10px 10px;
+outline: none;
+width: 100%;
+}
+ul li textarea{
+  outline: none;
+  padding: 10px 0;
+  width: 100%;
+}
+.contact-body{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 110vh;
+}
+
+
+@media (max-width:600px){
+  .contact-img{
+   display: none;
+  }
+  .contact-us{
+    margin: 5px auto;
+    width: 100%;
+  }
+ 
+
+
+
+}

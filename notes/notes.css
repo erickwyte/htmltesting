@@ -1,0 +1,414 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+html{
+  scroll-behavior: smooth;
+}
+
+a{
+  color: green;
+  cursor: pointer;
+  text-decoration: none;
+}
+body{
+  width: 100%;
+}
+
+
+
+/*  ----------------------------------------------the header-------------------------------------------------*/
+
+.notes-header{
+  display: flex;
+  opacity: 1;
+  align-items: center;
+  background: #fff;
+  width: 100%;
+  padding: 5px 0 0 0;
+  border-bottom: 2px solid green;
+  justify-content: space-between;
+  }
+
+
+
+
+  
+.nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo img{
+  width: 30px;
+  margin-left: 5px;
+  margin-right: auto;
+  padding: 2.4px 0;
+}
+.middle-nav{
+  margin-right: 70px;
+}
+.middle-nav ul{
+  display: flex;
+  align-items: center;
+
+}
+
+.search-box{
+  display: none;
+}
+
+
+
+.middle-nav ul img{
+  display: none;
+  width: 20px;
+}
+.middle-nav img{
+  display: none;
+  width: 20px;
+}
+ul li{
+  list-style: none;
+  padding: 8px 10px ;
+}
+
+li a{
+  padding: 10px 0;
+}
+.search-icon{
+  margin: 2px 20px 0 0;
+  width: 28px;
+}
+ .search-icon a img{
+  width: 100%;
+
+  cursor: pointer;
+}
+
+
+
+.middle-nav ul img{
+  display: none;
+  width: 20px;
+}
+.middle-nav img{
+  display: none;
+  width: 20px;
+}
+ul li{
+  list-style: none;
+  padding: 8px 10px ;
+}
+
+li a{
+  padding: 10px 0;
+}
+.search-icon{
+  margin: 2px 20px 0 0;
+  width: 28px;
+}
+ .search-icon a img{
+  width: 100%;
+
+  cursor: pointer;
+}
+
+.middle-nav ul li:hover {
+    border-bottom: 4px solid red;
+    
+}
+
+.middle-nav ul li a{
+  color: #000;
+}
+.right-nav  .singup{
+  padding:8px ;
+  border: 1px solid green;
+  border-radius: 20px;
+  margin-right: 5px;
+}
+.right-nav  .singin{
+  padding:8px ;
+  border: 1px solid green;
+  border-radius: 20px;
+  margin-right: 2px;
+}
+
+.menu-bar{
+  display: none;
+}
+
+
+
+
+
+.depertments-field{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 3%;
+}
+
+.depertments-field button{
+  padding: 10px;
+  border: 1px solid green;
+  border-radius: 10px;
+  margin: 10px;
+  background: #ccc;
+}
+
+.depertments{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  }
+  
+  .departments-title{
+    margin:50px 0 10px 0;
+   
+   display: flex;
+   align-items: center;
+  justify-content: center;
+  }
+
+.gallery div img:hover{
+  filter: grayscale(0%);
+  cursor: pointer;
+  transform: scale(1.03);
+}
+.gallery{
+
+  width: 100%;
+  display: flex;
+  overflow-x: scroll;
+  height: 230px;
+  margin: 5px;
+}
+
+.gallery div{
+ 
+  display: grid;
+   flex: none;
+  grid-gap: 5px;
+  grid-template-columns:repeat(10,1fr);
+}
+
+.gallery div img{
+  width: 100%;
+  height: 195px;
+  border-radius: 10px;
+  transition: transform 0.5s;
+}
+.gallery::-webkit-scrollbar{
+  display: none;
+}
+
+
+h4{
+  display: flex;
+align-items: center;
+justify-content: center;
+margin: 10px;
+}
+
+.department-content{
+  border-bottom: 2px solid green;
+  margin: 10px;
+}
+
+.more-of-faculty{
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 35px;
+  color: #fff;
+  border-radius: 20px;
+  border: 1px solid red;
+  background: green;
+  margin: 60% 90% 40% 10%;
+}
+
+
+/*---------------------------footer--------------------------------------------------------------------------*/
+
+.bottom-footer{
+  background-color: rgb(0, 0, 0);
+  color: #fff;
+  width: 100%;
+  
+}
+.bottom-footer .logo img{
+  background: #fff;
+  margin-top: 15px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+.footer-cotent{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px 0 10px 0;
+  
+}
+.footer-cotent h3{
+  margin-bottom: 10px;
+}
+.footer-cotent ul li{
+  padding: 0;
+  margin: 2px;
+}
+.cotent1, li a:hover{
+  cursor: pointer;
+  color: #fff;
+}
+.cotent2, li a:hover{
+  cursor: pointer;
+  color: #fff;
+}
+.cotent3, li a:hover{
+  cursor: pointer;
+  color: #fff;
+}
+.cotent4, li a:hover{
+  cursor: pointer;
+  color: #fff;
+}
+.footer-cotent .cotent1{
+  padding: 10px;
+}
+.footer-cotent .cotent2{
+  padding: 10px;
+}
+.footer-cotent .cotent3{
+  padding: 10px;
+}
+.footer-cotent .cotent4{
+  padding: 10px;
+}
+.logo p {
+  margin: 5px 0 5px 10px;
+}
+.footer-icons img{
+   width: 30px;
+   padding: 5px;
+   margin-right: 10px;
+   margin-bottom: 10px;
+   margin-left: 10px;
+}
+.copyright hr{
+  height: 1px;
+  color: #ccc;
+  width: 100%;
+ 
+}
+
+.copyright{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px;
+}
+
+
+
+
+/*00------------------------------------------smallscreens-----------------------------------------------------------------*/
+
+
+
+
+
+
+
+
+@media (max-width:600px){
+
+  body{
+    width: 100%;
+  }
+  .search-icon{
+    display: none;
+  }
+  
+  .search-box input{
+    padding: 7px 20px;
+   margin: 5px 0;
+    width: 100%;
+    outline: none;
+    border-radius: 20px;
+  border: 1px solid black;
+  }
+  .search-box {
+    width: 100%;
+    display: flex;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 2%;
+  }
+  .search-box img{
+    margin-left: -30px;
+    width: 20px;
+  }
+    header{
+      width: 100%;
+    }
+    .right-nav{
+      display: none;
+    }
+    .menu-bar{
+      display: block;
+      width: 30px;
+      height: 25px;
+      margin-right: 5%;
+      cursor: pointer;
+    }
+    .middle-nav{
+      background: rgb(33, 97, 10);
+      position:fixed ;
+      top: 48px;
+      right: -70%;
+      width: 70%;
+      margin: 0;
+      transition: right 0.5s;
+    }
+    .middle-nav ul{
+      display: block;
+      margin:25px ;
+    }
+    .middle-nav  img{
+      display: block;
+      width: 20px;
+      position: absolute;
+      top: 25px;
+      right: 30px;
+      cursor: pointer;
+    }
+  .menusidebar{
+    right: 80px;
+    height: 100vh;
+    
+  }
+  
+
+.depertments-field button{
+  padding: 5px;
+  border: 1px solid green;
+  border-radius: 10px;
+  margin: 5px;
+  background: #ccc;
+}
+
+  }
+  
